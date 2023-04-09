@@ -25,5 +25,5 @@ plt.xlabel('Year')
 plt.ylabel('Forest area (% of land area)')
 plt.title('Forest area from 1990 to 2015')
 plt.legend(title='Country', bbox_to_anchor=(1.05, 1), loc='upper left')
-
+plt.savefig("Forest area.png")
 plt.show()

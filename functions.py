@@ -43,7 +43,7 @@ def lineplot(df, figure_size=None, x_label="x", y_label="y", title=''):
     # labelling
     plt.xlabel(x_label)
     plt.ylabel(y_label)
-
+    plt.title(title)
     plt.legend()
     # save as png
     plt.savefig(title+".png")
